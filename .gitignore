@@ -1,0 +1,89 @@
+# ---- OS generated ----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ---- Editors ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+
+# ---- Logs & temp ----
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# ---- Environment & secrets ----
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets.*
+!.gitkeep
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---- Node / frontend ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+.next/
+.nuxt/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# ---- Go ----
+*.exe
+*.test
+*.out
+vendor/
+
+# ---- Java / Kotlin ----
+*.class
+target/
+*.jar
+*.war
+
+# ---- C / C++ ----
+*.o
+*.obj
+*.dll
+*.lib
+*.pdb
+
+# ---- Archives ----
+*.zip
+*.tar.gz
+*.7z
+*.rar
